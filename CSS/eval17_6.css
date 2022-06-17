@@ -1,0 +1,22 @@
+input[type=text1] {
+  width:30%;
+  height:30px;
+  /* padding: 12px 20px; */
+}
+.error{
+  color: #e74c3c;
+}
+
+body{
+      
+
+  border-left: 350px solid white;
+  border-right: 350px solid white;
+  border-bottom: 10px solid white;
+  border-top: 5px solid white;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+#evalform{
+  background-color: rgb(177, 175, 175);
+}

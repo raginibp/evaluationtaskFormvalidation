@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>JQuery Example</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="../CSS/eval17_6.css">
+<script src="../JQuery/eval17_6.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+
+</head>
+<body>
+
+  <form id="evalform" Action="../HTML/evaloutput.htm"target="_">
+ 
+  <div class="row">
+    <div class="col-sm-4"> 
+      <div class="container">
+      <label for="name">Name:<span style="color:red">*</span></label>
+      <input type="text" id="name" name="name" >
+     </div>
+  </div>
+  <div class="col-sm-8"> </div>
+     </div>
+     <br><br>
+     <div class="row">
+    <div class="col-sm-4"> 
+      <div class="container">
+      <label for="age">Age:<span style="color:red">*</span></label>
+      <input type="number" id="age" name="age">
+    </div>
+  </div>
+  <div class="col-sm-8"> </div>
+  </div>
+  <br><br>
+  <div class="row">
+    <div class="col-sm-4"> 
+      <div class="container">
+      <label for="age">E-mail:<span style="color:#ec0a0a">*</span></label>
+      <input type="text" id="email" name="email"placeholder="abc@tntra.io">
+    </div>
+  </div>
+  <div class="col-sm-8"> </div>
+  </div>
+  <br><br>
+  <div class="row">
+    <div class="col-sm-4"> 
+      <div class="container">
+      <label for="age">Phone Number:<span style="color:red">*</span></label>
+      <input type="text" id="phone" name="phone"placeholder="(000)-00-00000">
+    </div>
+  </div>
+  <div class="col-sm-8"> </div>
+  </div><br><br>
+  <div class="row">
+      <div class="col-sm-4"> 
+        <div class="container">
+        <label for='Gender'>Gender:</label>
+
+<label><input type='radio' name='Gender' value='Male' />Male</label>
+<label><input type='radio' name='Gender' value='Female' />Female</label>
+<label><input type='radio' name='Gender' value='Others' />Other</label>
+</div>
+</div>
+<div class="col-sm-8"> </div>
+</div>
+<div class="container">
+<div class="grp checkbok">
+  <div class="row">
+
+    <div class="col-sm-6">
+
+      <label class="font"> <input type="checkbox" name="checkbox_1" class="selected"id="checkbox_1"> NEXT-DAY
+        CONFIGURATION</label>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+         <p style="font-size: small;"class="text">&nbsp;&nbsp;&nbsp; Set Next-Day Pick-up time</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="grp sunday">
+  <div class="row">
+    <div class="col-sm-4">
+      <label class="font"> <input type="checkbox" name="sunday"class="sun" id="sunday"> Sunday</label>
+      </div>
+    <div class="col-sm-8">
+      <div class="container">
+      <select class="sun1"name="pickupTime1" id="sund">
+        <option value="">-Select Pick-up Time</option>
+        <option value="00:00">00:00</option>
+        <option value="01:00">01:00</option>
+        <option value="02:00">02:00</option>
+        <option value="03:00">03:00</option>
+        <option value="04:00">04:00</option>
+        <option value="05:00">05:00</option>
+        <option value="06:00">06:00</option>
+        <option value="07:00">07:00</option>
+        <option value="08:00">08:00</option>
+        <option value="09:00">09:00</option>
+        <option value="10:00">10:00</option>
+        <option value="11:00">11:00</option>
+        <option value="12:00">12:00</option>
+        <option value="13:00">13:00</option>
+        <option value="14:00">14:00</option>
+        <option value="15:00">15:00</option>
+        <option value="16:00">16:00</option>
+        <option value="17:00">17:00</option>
+        <option value="18:00">18:00</option>
+        <option value="19:00">19:00</option>
+        <option value="20:00">20:00</option>
+        <option value="21:00">21:00</option>
+        <option value="22:00">22:00</option>
+        <option value="23:00">23:00</option>
+      </select>
+    </div>
+  </div>
+    </div>
+</div>
+<div class="grp monday">
+  <div class="row">
+    <div class="col-sm-4">
+      <label class="font"> <input type="checkbox" name="monday"class="mon" id="monday"> Monday</label>
+      </div>
+    <div class="col-sm-8">
+      <div class="container">
+      <select name="pickupTime2" id="mond"class="mon1">
+        <option value="">-Select Pick-up Time</option>
+        <option value="00:00">00:00</option>
+        <option value="01:00">01:00</option>
+        <option value="02:00">02:00</option>
+        <option value="03:00">03:00</option>
+        <option value="04:00">04:00</option>
+        <option value="05:00">05:00</option>
+        <option value="06:00">06:00</option>
+        <option value="07:00">07:00</option>
+        <option value="08:00">08:00</option>
+        <option value="09:00">09:00</option>
+        <option value="10:00">10:00</option>
+        <option value="11:00">11:00</option>
+        <option value="12:00">12:00</option>
+        <option value="13:00">13:00</option>
+        <option value="14:00">14:00</option>
+        <option value="15:00">15:00</option>
+        <option value="16:00">16:00</option>
+        <option value="17:00">17:00</option>
+        <option value="18:00">18:00</option>
+        <option value="19:00">19:00</option>
+        <option value="20:00">20:00</option>
+        <option value="21:00">21:00</option>
+        <option value="22:00">22:00</option>
+        <option value="23:00">23:00</option>
+      </select>
+    </div>
+    </div>
+    </div>
+</div>
+<div class="grp tuesday">
+  <div class="row">
+    <div class="col-sm-4">
+      <label class="font"> <input type="checkbox" name="tuesday"class="tue" id="tuesday"> Tuesday</label>
+      </div>
+    <div class="col-sm-8">
+      <div class="container">
+      <select name="pickupTime3" id="tuesd"class="tue1">
+        <option value="">-Select Pick-up Time</option>
+        <option value="00:00">00:00</option>
+        <option value="01:00">01:00</option>
+        <option value="02:00">02:00</option>
+        <option value="03:00">03:00</option>
+        <option value="04:00">04:00</option>
+        <option value="05:00">05:00</option>
+        <option value="06:00">06:00</option>
+        <option value="07:00">07:00</option>
+        <option value="08:00">08:00</option>
+        <option value="09:00">09:00</option>
+        <option value="10:00">10:00</option>
+        <option value="11:00">11:00</option>
+        <option value="12:00">12:00</option>
+        <option value="13:00">13:00</option>
+        <option value="14:00">14:00</option>
+        <option value="15:00">15:00</option>
+        <option value="16:00">16:00</option>
+        <option value="17:00">17:00</option>
+        <option value="18:00">18:00</option>
+        <option value="19:00">19:00</option>
+        <option value="20:00">20:00</option>
+        <option value="21:00">21:00</option>
+        <option value="22:00">22:00</option>
+        <option value="23:00">23:00</option>
+      </select>
+    </div>
+    </div>
+    </div>
+</div>
+<div class="grp wednesday">
+  <div class="row">
+    <div class="col-sm-4">
+      <label class="font"> <input type="checkbox" name="wednesday"class="wed" id="wednesday">Wednesday</label>
+      </div>
+    <div class="col-sm-8">
+      <div class="container">
+      <select name="pickupTime4" id="wednesd"class="wed1">
+        <option value="">-Select Pick-up Time</option>
+        <option value="00:00">00:00</option>
+        <option value="01:00">01:00</option>
+        <option value="02:00">02:00</option>
+        <option value="03:00">03:00</option>
+        <option value="04:00">04:00</option>
+        <option value="05:00">05:00</option>
+        <option value="06:00">06:00</option>
+        <option value="07:00">07:00</option>
+        <option value="08:00">08:00</option>
+        <option value="09:00">09:00</option>
+        <option value="10:00">10:00</option>
+        <option value="11:00">11:00</option>
+        <option value="12:00">12:00</option>
+        <option value="13:00">13:00</option>
+        <option value="14:00">14:00</option>
+        <option value="15:00">15:00</option>
+        <option value="16:00">16:00</option>
+        <option value="17:00">17:00</option>
+        <option value="18:00">18:00</option>
+        <option value="19:00">19:00</option>
+        <option value="20:00">20:00</option>
+        <option value="21:00">21:00</option>
+        <option value="22:00">22:00</option>
+        <option value="23:00">23:00</option>
+      </select>
+    </div>
+     </div>
+    </div>
+</div>
+<div class="grp thursday">
+  <div class="row">
+    <div class="col-sm-4">
+      <label class="font"> <input type="checkbox" name="thursday"class="thur" id="thursday"> Thursday</label>
+      </div>
+    <div class="col-sm-8">
+      <div class="container">
+      <select name="pickupTime5" id="thursd"class="thur1">
+        <option value="">-Select Pick-up Time</option>
+        <option value="00:00">00:00</option>
+        <option value="01:00">01:00</option>
+        <option value="02:00">02:00</option>
+        <option value="03:00">03:00</option>
+        <option value="04:00">04:00</option>
+        <option value="05:00">05:00</option>
+        <option value="06:00">06:00</option>
+        <option value="07:00">07:00</option>
+        <option value="08:00">08:00</option>
+        <option value="09:00">09:00</option>
+        <option value="10:00">10:00</option>
+        <option value="11:00">11:00</option>
+        <option value="12:00">12:00</option>
+        <option value="13:00">13:00</option>
+        <option value="14:00">14:00</option>
+        <option value="15:00">15:00</option>
+        <option value="16:00">16:00</option>
+        <option value="17:00">17:00</option>
+        <option value="18:00">18:00</option>
+        <option value="19:00">19:00</option>
+        <option value="20:00">20:00</option>
+        <option value="21:00">21:00</option>
+        <option value="22:00">22:00</option>
+        <option value="23:00">23:00</option>
+      </select>
+    </div>
+     </div>
+    </div>
+</div>
+<div class="grp friday">
+  <div class="row">
+    <div class="col-sm-4">
+      <label class="font"> <input type="checkbox" name="friday"class="fri" id="friday">Friday</label>
+      </div>
+    <div class="col-sm-8">
+      <div class="container">
+      <select name="pickupTime6" id="frid"class="fri1">
+        <option value="">-Select Pick-up Time</option>
+        <option value="00:00">00:00</option>
+        <option value="01:00">01:00</option>
+        <option value="02:00">02:00</option>
+        <option value="03:00">03:00</option>
+        <option value="04:00">04:00</option>
+        <option value="05:00">05:00</option>
+        <option value="06:00">06:00</option>
+        <option value="07:00">07:00</option>
+        <option value="08:00">08:00</option>
+        <option value="09:00">09:00</option>
+        <option value="10:00">10:00</option>
+        <option value="11:00">11:00</option>
+        <option value="12:00">12:00</option>
+        <option value="13:00">13:00</option>
+        <option value="14:00">14:00</option>
+        <option value="15:00">15:00</option>
+        <option value="16:00">16:00</option>
+        <option value="17:00">17:00</option>
+        <option value="18:00">18:00</option>
+        <option value="19:00">19:00</option>
+        <option value="20:00">20:00</option>
+        <option value="21:00">21:00</option>
+        <option value="22:00">22:00</option>
+        <option value="23:00">23:00</option>
+      </select>
+    </div>
+ </div>
+    </div>
+</div>
+
+<div class="grp saturday">
+  <div class="row">
+    <div class="col-sm-4">
+      <label class="font"> <input type="checkbox" class="sat"name="saturday" id="saturday"> Saturday</label>
+      </div>
+    <div class="col-sm-8">
+      <div class="container">
+      <select name="pickupTime7" id="saturd"class="sat1">
+        <option value="">-Select Pick-up Time</option>
+        <option value="00:00">00:00</option>
+        <option value="01:00">01:00</option>
+        <option value="02:00">02:00</option>
+        <option value="03:00">03:00</option>
+        <option value="04:00">04:00</option>
+        <option value="05:00">05:00</option>
+        <option value="06:00">06:00</option>
+        <option value="07:00">07:00</option>
+        <option value="08:00">08:00</option>
+        <option value="09:00">09:00</option>
+        <option value="10:00">10:00</option>
+        <option value="11:00">11:00</option>
+        <option value="12:00">12:00</option>
+        <option value="13:00">13:00</option>
+        <option value="14:00">14:00</option>
+        <option value="15:00">15:00</option>
+        <option value="16:00">16:00</option>
+        <option value="17:00">17:00</option>
+        <option value="18:00">18:00</option>
+        <option value="19:00">19:00</option>
+        <option value="20:00">20:00</option>
+        <option value="21:00">21:00</option>
+        <option value="22:00">22:00</option>
+        <option value="23:00">23:00</option>
+      </select>
+    </div>
+</div>
+    </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-10"></div>
+  <div class="col-sm-2">
+  
+    <input class="submit" id="submit" type="submit" value="submit">
+  
+</div>
+</form>
+</body>
+</html>
